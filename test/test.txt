@@ -1,0 +1,5 @@
+We have 3 test cases to examine our implementation.
+
+test1: test1 aims to test the changedelay event. In the network of three nodes, it first increases then decreases the link cost between two nodes to examine the implementation of poison reverse.  
+test2: test2 aims to test the combination of changedelay, linkdying, and linkcomingup events in a complex network. In the network of four nodes, it first increases the link cost of a path to test the poison reverse. Then, it tests the algorithm to find the best path by letting an essential path die.
+test3: test3 aims to test the scalability of DV and LS. In the network of 8 nodes and 13 edges, the algorithm is required to find the shortest path to transmit a packet from any source to any destination in the network.
